@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Kultech - Budaya Indonesia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div class="intro">
+        <img class="left" src="assets\intro\logo1.png" alt="">
+        <img class="right" src="assets\intro\logo2.png" alt="">
+        <div>
+            <h1>Kulsia</h1>
+            <h2>Kultur Indonesia</h2>
+        </div>
+    </div>
+    <div class="page">
+        <video autoplay loop muted>
+            <source src="assets\bg\bg3.mp4" type="video/mp4"/>
+        </video>
+        <header class="area-page">
+            <!-- LOGO -->
+            <div class="header-logo">
+                <a href="#">
+                    <img src="assets\logo\logo.png" alt="Kultech LOGO" src="#"/>
+                    <div>
+                        <h1>Kulsia</h1>
+                        <h2>Kultur Indonesia</h2>
+                    </div>
+                </a>
+            </div>
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-tech-tools">
+                        <span class="link-span">BUDAYA</span>
+                        <ul class="tech-tools">
+                            <li>
+                                <a href="">Adat Istiadat</a>
+                            </li>
+                            <li>
+                                <a href="">Karya Seni</a>
+                            </li>
+                            <li>
+                                <a href="">Flora & Fauna</a>
+                            </li>
+                            <li>
+                                <a href="">Kuliner</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-manage">
+                        <span class="link-span">EXPLORA</span>
+                    </li>
+                    <li class="navbar-company">
+                        <span class="link-span">COMPANY</span>
+                        <ul class="company">
+                            <li>
+                                <a href="#">Lemhannas</a>
+                                <a href="#">Kemdikbud</a>
+                                <li class="news">
+                                    <a href="">News</a>
+                                    <ul>
+                                        <li>
+                                            <a href="https://detik.com">Detik</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://compas.com">Kompas</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-view">
+                        <span class="link-span">RELATION</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-requests">
+                <li class="search">
+                    <span>
+                        <img src="assets\icon\search.png" alt=""/>
+                    </span>
+                    <ul class="search-slide">
+                        <li>
+                            <input type="text" placeholder="search" name="search" id="search"/>
+                        </li>
+                    </ul>
+                </li>
+                <div class="login">
+                    <a href="/login/login.html" class="login">Login</a>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="content-introduction">
+                <h1>Menjelajahi Keberagaman Indonesia</h1>
+                <a href="explore/explore.html">Explore</a>
+            </div>
+            <div>
+                <img class="imgHead1" src="assets/bg/bg_head1.png" alt="bghead1">
+            </div>
+            <div class="heading1">
+                <h1 class="slideHead1" id="head1">Budaya Adat Istiadat</h1>
+                <br>
+                <h3 class="slideText1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis quod<br> atque deserunt quasi debitis molestias nemo rem eum reprehenderit neque, distinctio <br> eos voluptatum iusto voluptate excepturi error exercitationem.</h3>
+                <div class="image-container">
+                    <img class="slide" id="sliderImage" src="content/foto/barong.jpeg" alt="Slider Image">
+                </div>
+                <button class="button-left" onclick="slideLeft()"><</button>
+                <button class="button-right" onclick="slideRight()">></button>
+                
+            </div>
+            <div>
+                <img class="imgHead2" src="assets/bg/bg_head2.png" alt="bghead2">
+            </div>
+            <div class="heading2">
+                <div class="head2Line1">
+                    <img src="content/foto/wayang.jpeg" alt="head2-1">
+                    <h1 class="slideHead2" id="head2">Budaya Karya Seni</h1>
+                </div>
+                <div class="head2Line2">
+                    <h3 class="slideText2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quis quod<br> atque deserunt quasi debitis molestias nemo rem eum reprehenderit neque, distinctio <br> eos voluptatum iusto voluptate excepturi error exercitationem.</h3>
+                    <img src="content/foto/batik.jpeg" alt="head2-2">
+                </div>
+            </div>
+            <div class="heading3">
+                <h1>Budaya Kuliner</h1>
+                <br>
+                <div>
+                    <div class="content1head3">
+                        <img class="img1" src="content/foto/olos.png" alt="olos">
+                        <h3 class="slideText1">Olos<br>Makanan Khas Tegal</h3>
+                        <br>
+                        <h3 class="slideText1a">Olos adalah makanan yng terbuat dari tepung tapioka, sayur yang dicampur cabai pedas</h3>
+                        <div class="block1"></div>
+                        <div class="block2"></div>
+                    </div>
+                    <div class="content2head3">
+                        <img class="img2" src="content/foto/serabi.jpg" alt="serabi">
+                        <h3 class="slideText2">Serabi<br>Makanan Khas Solo</h3>
+                        <br>
+                        <h3 class="slideText1b">Serabi adalah makanan manis seperti senyumanmu, yang terbuat dari ketan dan varian manis</h3>
+                        <div class="block1"></div>
+                        <div class="block2"></div>
+                    </div>
+                    <div class="content3head3">
+                        <img class="img3" src="content/foto/kerak-telor.jpg" alt="kerak-telor">
+                        <h3 class="slideText3">Kerak Telor<br>Makanan Khas Jakarta</h3>
+                        <br>
+                        <h3 class="slideText1c">Kerak Telor adalah makanan yang terbuat dari ketan dan telor yang dibakar</h3>
+                        <div class="block1"></div>
+                        <div class="block2"></div>
+                    </div>
+                    <div class="content4head3">
+                        <img class="img4" src="content/foto/laksa.JPG" alt="laksa">
+                        <h3 class="slideText4">Laksa<br>Makanan Khas Tangerang</h3>
+                        <br>
+                        <h3 class="slideText1d">Laksa adalah makanan yng saya tidak tahu apa isinya, nampak kayak soto</h3>
+                        <div class="block1"></div>
+                        <div class="block2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about_lengkap">
+            <a href="#">Jl. Cendrawasih Raya</a>
+            <a href="#">techfast@gmail.com</a>
+            <a href="#">(+62)895348505284</a>
+        </div>
+        <div class="footer">
+            <!-- Brand -->
+            <img src="assets\logo\logo.png"  alt=""/>
+            <div class="kontak"></div>
+            <div class="about">
+                <!-- Links -->
+                <a class="line1" id="term" href="http://localhost:8080/tos">Terms</a>
+                <a class="line1" id="privacy" href="http://localhost:8080/privacy-policy">Policy</a>
+                <a class="line1" id="contact" href="http://localhost:8080/contact">Contact</a>
+                <!-- CopyRights -->
+                <h4>
+                    © 2023
+                    <a href="#">techfast.com</a> 
+                    All rights reserved.
+                </h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>

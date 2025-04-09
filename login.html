@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Tech Fast</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="login.js"></script>
+    </head>
+    <body>
+        <form class="login-button" method="post" action="login" onsubmit="return validasi()">
+            <div class="item-login">
+                <label for="username">Username: </label>
+                <input type="text" placeholder="username" id="username" name="username"><br><br>
+                <label for="password">Password: </label>
+                <input type="password" placeholder="password" id="password" name="password"><br><br>
+            </div>
+            <div class="item-optional">
+                <input type="checkbox" id="rememberme" name="rememberme">
+                <label for="rememberMe">Remember me</label><br><br>
+            </div>
+            <div class="button-login">
+                <button id='loginButton' type='submit'>Login</button>
+            </div>
+            <div class="signup">
+                <h4>Have an Account ?</h4>
+                <a href="signup">SignUp</a>
+            </div>
+        </form>
+    </body>
+</html>
