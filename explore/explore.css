@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    background: linear-gradient(to right, #004d74, #006494,#3cade5 );
+}
+.header{
+    top: 10px;
+    position: absolute;
+    display: block;
+    background-color: #628ECB;
+    width: 98%;
+    text-align: center;
+    border-radius: 10px;
+}
+.header h1{
+    padding: 5px;
+}
+.main {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.main div {
+    display: grid;
+}
+.area1 {
+    position: fixed;
+}
+.area1 p {
+    width: 150px;
+    padding: 20px;
+    background-color: #1fcafe;
+    border: 4px rgb(3, 39, 132) solid;
+    border-radius: 5px;
+}
+.area2 {
+    position: absolute;
+}
+.budaya div{
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
+
+.budaya .content1 img{
+    margin-top: 35px;
+    position: absolute;
+    left: 1000px;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    border: 10px #032030 solid;
+    z-index: 2;
+}
+.budaya .content2 img{
+    margin-top: 35px;
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    border: 10px #032030 solid;
+    z-index: 2;
+}
+.budaya .content1 h2{
+    margin-top: 35px;
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    z-index: 2;
+}
+.budaya .content2 h2{
+    text-align: end;
+    margin-top: 35px;
+    position: absolute;
+    left: 950px;
+    width: 400px;
+    z-index: 2;
+}
+.budaya div div{
+    position: absolute;
+    left: 280px;
+    width: 1150px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px black solid;
+    z-index: 2;
+}
+.text2{
+    position: relative;
+    text-align: justify;
+    left: 800px;
+    width: 550px;
+    height: 20px;
+    z-index: 2;
+}
+.text1{
+    position: relative;
+    text-align: justify;
+    left: 300px;
+    width: 550px;
+    height: 20px;
+    z-index: 2;
+}
+@media only screen and (max-width: 768px) {
+    /* Aturan CSS khusus untuk layar dengan lebar maksimum 768px */
+    body {
+        font-size: 14px;
+    }
+}

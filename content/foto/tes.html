@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .bunga {
+      position: relative;
+      width: 100px;
+      height: 100px;
+    }
+
+    .kelopak {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #ff69b4;
+      border-radius: 50%;
+      transform-origin: 50% 100%;
+    }
+
+    .kelopak1 { transform: rotate(60deg); }
+    .kelopak2 { transform: rotate(120deg); }
+    .kelopak3 { transform: rotate(180deg); }
+
+    @keyframes mekar {
+      to {
+        transform: scaleY(1.2) rotate(0deg);
+      }
+    }
+  </style>
+  <title>Bunga Mekar Animation</title>
+</head>
+<body>
+  <div class="bunga">
+    <div class="kelopak kelopak1"></div>
+    <div class="kelopak kelopak2"></div>
+    <div class="kelopak kelopak3"></div>
+  </div>
+  <script>
+    const bunga = document.querySelector('.bunga');
+
+    // Tambahkan kelas animasi saat halaman dimuat
+    window.addEventListener('load', () => {
+      bunga.classList.add('melebar');
+    });
+
+    // Hapus kelas animasi setelah animasi selesai
+    bunga.addEventListener('animationend', () => {
+      bunga.classList.remove('melebar');
+    });
+  </script>
+</body>
+</html>
