@@ -40,4 +40,4 @@
    ```
 
 ## Team
-@fikriaf @alfaris @syifa
+@fikriaf @alfarissm @syifa
